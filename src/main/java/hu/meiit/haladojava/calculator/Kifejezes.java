@@ -1,8 +1,8 @@
 package hu.meiit.haladojava.calculator;
 
 public class Kifejezes {
-    private final int kifejezesElso;
-    private final int kifejezesMmasodik;
+    private final double kifejezesElso;
+    private final double kifejezesMmasodik;
     private final char muvelet;
 
     public Kifejezes(int kifejezesElso, int kifejezesMmasodik, char muvelet) {
@@ -11,11 +11,11 @@ public class Kifejezes {
         this.muvelet = muvelet;
     }
 
-    public int getKifejezesElso() {
+    public double getKifejezesElso() {
         return kifejezesElso;
     }
 
-    public int getKifejezesMmasodik() {
+    public double getKifejezesMmasodik() {
         return kifejezesMmasodik;
     }
 

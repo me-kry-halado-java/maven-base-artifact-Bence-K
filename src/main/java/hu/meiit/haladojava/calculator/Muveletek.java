@@ -7,16 +7,16 @@ public class Muveletek {
         String eredmeny = null;
         switch (kif.getMuvelet()) {
             case "+":
-                eredmeny = String.valueOf((double)kif.getKifejezesElso() + (double)kif.getKifejezesMmasodik());
+                eredmeny = String.valueOf(kif.getKifejezesElso() + kif.getKifejezesMmasodik());
                 break;
             case "-":
-                eredmeny = String.valueOf((double)kif.getKifejezesElso() - (double)kif.getKifejezesMmasodik());
+                eredmeny = String.valueOf(kif.getKifejezesElso() - kif.getKifejezesMmasodik());
                 break;
             case "/":
-                eredmeny = String.valueOf((double)kif.getKifejezesElso() / (double)kif.getKifejezesMmasodik());
+                eredmeny = String.valueOf(kif.getKifejezesElso() / kif.getKifejezesMmasodik());
                 break;
             case "*":
-                eredmeny = String.valueOf((double)kif.getKifejezesElso() * (double)kif.getKifejezesMmasodik());
+                eredmeny = String.valueOf(kif.getKifejezesElso() * kif.getKifejezesMmasodik());
                 break;
             default:
                 break;
